@@ -9,8 +9,6 @@ const Brand = () => {
         { img: "https://ssl.com.bd/sites/default/files/Brand%20Logo.png", id: "brand4" },
         { img: "https://www.jekesa.net/wp-content/uploads/2018/09/DELETE_Gucci-Logo-wordmark-1024x768-2.png", id: "brand5" },
         { img: "https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg", id: "brand6" }
-
-
     ];
     return (
         <div className="brand_product_img">

@@ -1,0 +1,32 @@
+.product_catagory{
+    margin-top: 100px;
+}
+.product_catagory h3{
+    color: #444;
+    font-size: 30px;
+}
+.product_catagory_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 20%;
+    margin-top: 80px;
+
+}
+.catagory_item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+}
+.catagory_item span{
+    width: 70%;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+}
+.catagory_item img{
+    width: 30px;
+}

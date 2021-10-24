@@ -1,0 +1,584 @@
+[
+    {
+        "id": "aa1",
+        "catagoryname": "Laptop",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "aaa1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "aaa2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "aaa3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "aaa4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "aaa5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "aaa6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "aaa7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "aaa8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "aaa9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "aaa10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    },
+    {
+        "id": "aa2",
+        "catagoryname": "Mans Item",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "bbb1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "bbb2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "bbb3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "bbb4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "bbb5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "bbb6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "bbb7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "bbb8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "bbb9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "bbb10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    },
+    {
+        "id": "aa3",
+        "catagoryname": "Desktop",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "ccc1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "ccc2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "ccc3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "ccc4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "ccc5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "ccc6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "ccc7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "ccc8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "ccc9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "ccc10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    },
+    {
+        "id": "aa4",
+        "catagoryname": "Cosmetice",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "ddd1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "ddd2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "ddd3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "ddd4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "ddd5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "ddd6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "ddd7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "ddd8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "ddd9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "ddd10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    },
+    {
+        "id": "aa5",
+        "catagoryname": "Electronice",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "eee1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "eee2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "eee3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "eee4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "eee5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "eee6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "eee7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "eee8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "eee9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "eee10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    },
+    {
+        "id": "aa6",
+        "catagoryname": "Super Shop",
+        "img": "https://cdn.pngsumo.com/products-icon-png-175507-free-icons-library-product-png-256_256.jpg",
+        "catagory": [
+            {
+              "key": "fff1",
+              "productname": "Laptop",
+              "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+              "price": 200,
+              "discount": 7,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+              "ratings": 4.5  
+            },
+            {
+                "key": "fff2",
+                "productname": "Shampo",
+                "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                "price": 300,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6  
+            },
+            {
+                "key": "fff3",
+                "productname": "Alovera Jel",
+                "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                "price": 100,
+                "discount": 5,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.6 
+            },
+            {
+                "key": "fff4",
+                "productname": "Hair Jel",
+                "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                "price": 150,
+                "discount": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.8 
+            },
+            {
+                "key": "fff5",
+                "productname": "Mobile",
+                "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                "price": 1500,
+                "discount": 8,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.7 
+            },
+            {
+                "key": "fff6",
+                "productname": "Laptop",
+                "image": "https://www.whatsinproducts.com//files/brands_images/1576524885_10006027CLRBathKitchenCleanerPumpSpray.png",
+                "price": 200,
+                "discount": 7,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                "ratings": 4.5  
+              },
+              {
+                  "key": "fff7",
+                  "productname": "Shampo",
+                  "image": "https://imcbusiness.com/public/product/health-nutrition/Aloe-Vera-v1.png",
+                  "price": 300,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6  
+              },
+              {
+                  "key": "fff8",
+                  "productname": "Alovera Jel",
+                  "image": "https://www.okpapa.com.bd/wp-content/uploads/2020/06/health-care-products.png",
+                  "price": 100,
+                  "discount": 5,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.6 
+              },
+              {
+                  "key": "fff9",
+                  "productname": "Hair Jel",
+                  "image": "https://www.themadoptimist.com/assets/index_img/product.png",
+                  "price": 150,
+                  "discount": 3,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.8 
+              },
+              {
+                  "key": "fff10",
+                  "productname": "Mobile",
+                  "image": "https://imagena.loccitane.com/dw/image/v2/BDQL_PRD/on/demandware.static/-/Sites-occ_master/default/dw61b8d5ab/large/01LC250K17.png?sw=300&sh=300",
+                  "price": 1500,
+                  "discount": 8,
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta blanditiis qui molestiae veritatis itaque, repudiandae velit quis nobis perspiciatis. Impedit et voluptates hic tenetur corporis nam sed quae velit? Earum perspiciatis praesentium magni quas quasi doloremque voluptate dolore voluptates, quia tempora! Neque est quis, inventore asperiores enim tempora odio.",
+                  "ratings": 4.7 
+              }
+        ]
+    }
+]
