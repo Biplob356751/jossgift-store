@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../../App';
 import Logo from "./logo.png";
 import './Nav.css';
 
 const Nav = () => {
+    const [addCart, setAddCart] = useContext(CartContext);
     return (
         <div className="nav_bar">
             <div className="container_fluid">
@@ -30,12 +32,12 @@ const Nav = () => {
                         <i className="fa fa-search"></i>
                     </div>
                     <div className="fav_icon">
-                        <i className="far fa-heart"></i>
+                        <Link to="/addToFavourate"><i className="far fa-heart"></i></Link>
                         <div>4</div>
                     </div>
                     <div className="cart_icon">
-                        <i className="fas fa-shopping-cart"></i>
-                        <div>5</div>
+                        <Link to="/addToCart"><i className="fas fa-shopping-cart"></i></Link>
+                        <div>{addCart.length}</div>
                     </div>
                     <div className="signup_btn">
                         <Link to="/signup">SignUp</Link>

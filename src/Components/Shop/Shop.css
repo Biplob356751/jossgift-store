@@ -1,5 +1,6 @@
 .shop_page{
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 .brand_section{
     margin-top: 80px;
@@ -12,4 +13,8 @@
 .catagory_section{
     margin-top: 80px;
     margin-bottom: 50px;
+}
+.new_product_page{
+    margin-top: 80px;
+    margin-bottom: 50px; 
 }

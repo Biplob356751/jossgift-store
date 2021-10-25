@@ -1,0 +1,46 @@
+.details_page{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.product_details_content_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+}
+.details_content_image{
+    padding: 30px;
+    border: 1px solid #3498DB;
+}
+.details_content_image img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.details_content_content_info h2{
+    color: #444;
+    margin-bottom: 10px;
+}
+.details_content_content_info h2 span{
+    color: #3498DB;
+}
+.details_ratings{
+    margin-top: 30px;
+}
+.details_ratings i{
+    color: orange;
+}
+.details_ratings span{
+    margin-left: 10px;
+}
+.details_content_content_info button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498DB;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.details_content_content_info p{
+    margin-top: 40px;
+}

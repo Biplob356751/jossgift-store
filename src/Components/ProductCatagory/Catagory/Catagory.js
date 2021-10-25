@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import './Catagory.css';
 import ProductCatagoryData from '../ProductCatagoryData/ProductCatagoryData.json';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../../../App';
 
 
 const Catagory = () => {
+    const [addCart, setAddCart] = useContext(CartContext);
     const { catagoryname } = useParams();
     const [catagory, setCatagory] = useState([]);
 
@@ -16,7 +18,18 @@ const Catagory = () => {
             }
         }
     }, [catagoryname]);
-    console.log(ProductCatagoryData);
+   
+    //addcatagory product  
+    const handleAddToCart = (product) => {
+        const newCart = [...addCart, product]
+        setAddCart(newCart);
+    }
+
+    //load more information
+    const [load, setLoad] = useState(5);
+    const loadMore = () =>{
+        setLoad((preValue) => preValue + 5)
+    }
     return (
         <div className="catagory_page">
             <div className="container_fluid">
@@ -32,7 +45,7 @@ const Catagory = () => {
                 <h3>{catagoryname}</h3>
                 <div className="product_content_container">
                     {
-                        catagory.map(product =>
+                        catagory.slice(0, load).map(product =>
                             <div className="product_content_item" key={product.key}>
                                 <img src={product.image} alt="" />
                                 <h5>{product.productname}</h5>
@@ -53,12 +66,15 @@ const Catagory = () => {
                                     <span>({product.ratings})</span>
                                 </div>
                                 <div className="add_to_cart_details_btn">
-                                    <button>Cart</button>
-                                    <button><Link to="/catagorydetails">Details</Link></button>
+                                    <button onClick={() => handleAddToCart(product)}>Cart</button>
+                                    <button><Link to={`/productdetails/${product.key}`}>Details</Link></button>
                                 </div>
                             </div>
                         )
                     }
+                </div>
+                <div className="load_btn btn">
+                    <button onClick={loadMore}>Load More</button>
                 </div>
             </div>
         </div>

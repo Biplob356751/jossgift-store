@@ -4,6 +4,8 @@ import GiftPacage from '../GiftPacage/GiftPacage';
 import Brand from '../ProductBrand/Brand';
 import ProductCatagory from '../ProductCatagory/ProductCatagory';
 import './Shop.css';
+import BestSellToday from './../Product/BestSellToday/BestSellToday';
+import NewProduct from '../Product/NewProduct/NewProduct';
 
 const Shop = () => {
     return (
@@ -18,6 +20,12 @@ const Shop = () => {
                 </div>
                 <div className="catagory_section">
                     <ProductCatagory></ProductCatagory>
+                </div>
+                <div className="best_sell_today">
+                    <BestSellToday></BestSellToday>
+                </div>
+                <div className="new_product_page">
+                    <NewProduct></NewProduct>
                 </div>
             </div>
         </div>

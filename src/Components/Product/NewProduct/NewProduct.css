@@ -1,0 +1,20 @@
+.new_product_content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.show_more_btn button{
+    margin-top: 30px;
+    margin-left: auto;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3498DB;
+    cursor: pointer;
+    border: none;
+}
+.new_product_section h3{
+    font-size: 25px;
+    color: #444;
+}

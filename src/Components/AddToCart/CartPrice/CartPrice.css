@@ -1,0 +1,33 @@
+.cart_price_section h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #444;
+}
+.cart_price_section h4{
+    margin-bottom: 10px;
+    color: #444;
+}
+.cart_price_section p{
+    margin-bottom: 10px;
+}
+.cart_price_section span{
+    color: #3498DB;
+    margin-left: 10px;
+}
+.cart_price_section{
+    text-align: right;
+    padding: 10px;
+}
+.cart_price_section h2{
+    font-size: 20px;
+    color: #444;
+}
+.cart_price_section a{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
