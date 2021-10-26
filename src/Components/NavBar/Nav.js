@@ -19,7 +19,7 @@ const Nav = () => {
                             <ul>
                                 <li><i className="fas fa-store-alt"></i> <Link to="/">Shop</Link></li>
                                 <li><i className="fab fa-shopware"></i> <Link to="/about">About Us</Link></li>
-                                <li><i className="fas fa-headphones"></i><Link to="/catagory">Catagroy</Link></li>
+                                <li><i className="fas fa-headphones"></i><Link to="/catagorypage">Catagroy</Link></li>
                                 <li><i className="fas fa-blender-phone"></i><Link to="/contact">Contact Us</Link></li>
                             </ul>
                         </nav>

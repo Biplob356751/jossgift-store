@@ -3,6 +3,7 @@ import './PacageProduct.css';
 import PacageData from '../PacageData/PacageData.json';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import RelatedProduct from '../../RelatedProduct/RelatedProduct';
 
 const PacageProduct = () => {
     const { id } = useParams();
@@ -93,6 +94,8 @@ const PacageProduct = () => {
                 <div className="load_btn">
                     <button onClick={showMore}>Load More</button>
                 </div>
+
+                <RelatedProduct></RelatedProduct>
             </div>
         </div>
     );

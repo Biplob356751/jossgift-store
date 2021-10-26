@@ -1,0 +1,15 @@
+.load_more_button{
+    margin-top: 30px;
+    text-align: right;
+}
+.load_more_button button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498DB;
+    color: #fff;
+    cursor: pointer;
+}
+.feature_product_page h3{
+    color: #444;
+    font-size: 25px;
+}

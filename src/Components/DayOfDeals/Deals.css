@@ -1,0 +1,44 @@
+.day_of_deals_page h3{
+    color: #444;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.deals_content{
+    width: 80%;
+    margin: 40px auto;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://thumbs.dreamstime.com/b/flash-sale-business-poster-white-ribbon-clean-text-yellow-background-209666452.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 80px;
+}
+.deals_content h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.deals_content h1 span{
+    color: orange;
+}
+.deals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3%;
+    text-align: center;
+}
+.deals h4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+.deals p{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.day_deals{
+    padding: 20px 10px;
+    border: 1px solid #3498DB;
+
+}

@@ -1,9 +1,9 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './Details.css';
 import Productdata from '../Product/ProductData/ProductData.json';
 import { useParams } from 'react-router';
-import { useState } from 'react/cjs/react.development';
 import { CartContext } from '../../App';
+import RelatedProduct from './../RelatedProduct/RelatedProduct';
 
 
 const Details = () => {
@@ -17,22 +17,29 @@ const Details = () => {
         }
     }, [key]);
 
+
     //add product
     const [addCart, setAddCart] = useContext(CartContext);
     const handleAddToCartButton = (details) => {
         const newCart = [...addCart, details];
         setAddCart(newCart);
     }
+
     return (
         <div className="details_page">
             <div className="container_fluid">
                 <div className="product_details_content_container">
-                    <div className="details_content_image">
-                        <img src={details.image} alt="" />
+                    <div className="multi_image_section">
+                        <div className="details_content_image">
+                            <img src={details.image} alt="" />
+                        </div>
+                        <div className="multi_image">
+                           
+                        </div>
                     </div>
                     <div className="details_content_content_info">
                         <h2>Product Name: <span>{details.productname}</span></h2>
-                        <h2>Product Price: <span>{details.price - details.discount/100*details.price}$</span></h2>
+                        <h2>Product Price: <span>{details.price - details.discount / 100 * details.price}$</span></h2>
                         <div className="details_ratings">
                             <i className="fa fa-star"></i>
                             <i className="fa fa-star"></i>
@@ -44,6 +51,8 @@ const Details = () => {
                         <p>{details.description}</p>
                     </div>
                 </div>
+
+                <RelatedProduct></RelatedProduct>
             </div>
         </div>
     );

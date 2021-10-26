@@ -44,3 +44,9 @@
 .details_content_content_info p{
     margin-top: 40px;
 }
+.multi_image{
+    margin-top: 20px;
+}
+.multi_image img{
+    width: 10%;
+}

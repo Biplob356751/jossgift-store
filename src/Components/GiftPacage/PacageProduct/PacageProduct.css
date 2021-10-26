@@ -34,10 +34,9 @@
     margin-bottom: 50px;
 }
 .add_gift_product_list{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1%;
-    grid-row-gap: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 .add_gift_product_list_item{
@@ -46,6 +45,8 @@
     border-radius: 3px;
     text-align: center;
     position: relative;
+    width: 18%;
+    margin-bottom: 15px;
 }
 .add_gift_product_list_item:hover img{
     transform: scale(1.1);
@@ -102,11 +103,10 @@
     color: #444;
 }
 .pacage_product{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 100px;
-    grid-row-gap: 8%;
 }
 .pacage_product_item{
     padding: 10px;
@@ -114,6 +114,8 @@
     border-radius: 4px;
     position: relative;
     cursor: pointer;
+    width: 18%;
+    margin-bottom: 30px;
 }
 .pacage_product_item:hover img{
     transform: scale(1.2);
@@ -180,7 +182,7 @@
     color: #fff;
 }
 .load_btn{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: right;
 }
 .load_btn button{

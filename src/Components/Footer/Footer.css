@@ -1,0 +1,60 @@
+.footer_section{
+    padding: 50px 20px;
+    background-color: #eee;
+}
+.footer_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+}
+.footer_content_logo img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: -40px;
+}
+.footer_content_logo p{
+    margin-top: 20px;
+    text-align: center;
+}
+.customar_service h3{
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.customar_service a{
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+.support h3{
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.support p{
+    margin-bottom: 20px;
+}
+.support i{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3498DB;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.payment_method{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    margin-top: 20px;
+}
+.payment_method img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    height: 70px
+}

@@ -6,6 +6,9 @@ import ProductCatagory from '../ProductCatagory/ProductCatagory';
 import './Shop.css';
 import BestSellToday from './../Product/BestSellToday/BestSellToday';
 import NewProduct from '../Product/NewProduct/NewProduct';
+import FeatureProduct from './../Product/FeatureProduct/FeatureProduct';
+import Deals from '../DayOfDeals/Deals';
+import Review from '../Review/Review';
 
 const Shop = () => {
     return (
@@ -26,6 +29,15 @@ const Shop = () => {
                 </div>
                 <div className="new_product_page">
                     <NewProduct></NewProduct>
+                </div>
+                <div className="feature_product_section">
+                    <FeatureProduct></FeatureProduct>
+                </div>
+                <div className="day_of_deals_today_section">
+                    <Deals></Deals>
+                </div>
+                <div className="customar_review_section">
+                    <Review></Review>
                 </div>
             </div>
         </div>

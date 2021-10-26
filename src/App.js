@@ -10,6 +10,8 @@ import Catagory from './Components/ProductCatagory/Catagory/Catagory';
 import AddToCart from './Components/AddToCart/AddToCart';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 import Details from './Components/Details/Details';
+import Footer from './Components/Footer/Footer';
+import CatagoryPage from './Components/CatagoryPage/CatagoryPage';
 
 export const CartContext = createContext();
 const App = () => {
@@ -35,6 +37,9 @@ const App = () => {
             <Route path='/details/:key'>
               <Details></Details>
             </Route>
+            <Route path='/catagorypage'>
+              <CatagoryPage></CatagoryPage>
+            </Route>
             <Route path="/catagory/:catagoryname">
               <Catagory></Catagory>
             </Route>
@@ -45,6 +50,7 @@ const App = () => {
               <ProductDetails></ProductDetails>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </CartContext.Provider>
     </div>

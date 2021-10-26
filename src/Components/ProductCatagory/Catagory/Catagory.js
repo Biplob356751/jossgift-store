@@ -4,6 +4,7 @@ import './Catagory.css';
 import ProductCatagoryData from '../ProductCatagoryData/ProductCatagoryData.json';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../../App';
+import RelatedProduct from '../../RelatedProduct/RelatedProduct';
 
 
 const Catagory = () => {
@@ -76,6 +77,8 @@ const Catagory = () => {
                 <div className="load_btn btn">
                     <button onClick={loadMore}>Load More</button>
                 </div>
+
+                <RelatedProduct></RelatedProduct>
             </div>
         </div>
     );

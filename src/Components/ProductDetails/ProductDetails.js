@@ -3,6 +3,7 @@ import './ProductDetails.css';
 import ProductCatagoryData from '../ProductCatagory/ProductCatagoryData/ProductCatagoryData.json';
 import { useParams } from 'react-router';
 import { CartContext } from '../../App';
+import RelatedProduct from '../RelatedProduct/RelatedProduct';
 
 
 const ProductDetails = () => {
@@ -49,6 +50,8 @@ const ProductDetails = () => {
                         <button onClick={() => addToCartBtn(catagoryDetails)}>Add To cart</button>
                     </div>
                 </div>
+
+                <RelatedProduct></RelatedProduct>
             </div>
         </div>
     );
