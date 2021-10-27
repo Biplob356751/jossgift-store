@@ -33,9 +33,6 @@ const Details = () => {
                         <div className="details_content_image">
                             <img src={details.image} alt="" />
                         </div>
-                        <div className="multi_image">
-                           
-                        </div>
                     </div>
                     <div className="details_content_content_info">
                         <h2>Product Name: <span>{details.productname}</span></h2>

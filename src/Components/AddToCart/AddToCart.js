@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { CartContext } from '../../App';
 import './AddToCart.css'
 import CartPrice from './CartPrice/CartPrice';
@@ -10,6 +10,9 @@ const AddToCart = () => {
         const newCard = addCart.filter(pd => pd.key !== key);
         setAddCart(newCard);
     }
+
+    //incriment Products
+    
     return (
         <div className="add_to_cart_page">
             <div className="container_fluid">
@@ -19,13 +22,13 @@ const AddToCart = () => {
                             addCart.map(cart =>
                                 <div className="add_to_cart_item" key={cart.key}>
                                     <div className="add_cart_img">
-                                         <img src={cart.image} alt="" />
+                                        <img src={cart.image} alt="" />
                                     </div>
                                     <h5>{cart.productname}</h5>
                                     <p>{cart.price - cart.discount / 100 * cart.price}$</p>
                                     <div className="quantity_lenght">
                                         <span><i className="fa fa-plus"></i></span>
-                                        <span>5</span>
+                                        <span>{cart.quantity}</span>
                                         <span><i className="fa fa-minus"></i></span>
                                     </div>
                                     <div className="remove_icon">

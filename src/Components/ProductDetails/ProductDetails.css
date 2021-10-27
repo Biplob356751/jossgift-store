@@ -18,7 +18,8 @@
     transition: .5s;
 }
 .catagory_details_content_img:hover img{
-    transform: scale(1.1);
+    transform: scale(150%);
+    cursor: zoom-in;
 }
 .catagory_details_content_info{
     margin-top: 20px;

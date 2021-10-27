@@ -10,11 +10,17 @@
 .details_content_image{
     padding: 30px;
     border: 1px solid #3498DB;
+    overflow: hidden;
 }
 .details_content_image img{
     width: 70%;
     display: block;
     margin: auto;
+    transition: .5s;
+}
+.details_content_image:hover img{
+    transform: scale(150%);
+    cursor: zoom-in;
 }
 .details_content_content_info h2{
     color: #444;
@@ -45,8 +51,17 @@
     margin-top: 40px;
 }
 .multi_image{
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    width: 70%;
+    margin: 20px auto;
 }
-.multi_image img{
-    width: 10%;
+.multi_image_img img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #3498DB;
+    height: 60px;
 }

@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './Components/NavBar/Nav';
@@ -15,7 +15,25 @@ import CatagoryPage from './Components/CatagoryPage/CatagoryPage';
 
 export const CartContext = createContext();
 const App = () => {
-  const [addCart, setAddCart] = useState([]);
+
+  //localstorage 
+  const getProduct = () => {
+    const list = localStorage.getItem("myList");
+    if (list) {
+      return JSON.parse(list);
+    } else {
+      return [];
+    }
+  }
+
+  //context api
+  const [addCart, setAddCart] = useState(getProduct());
+  
+  //localstorage 
+  useEffect(() => {
+    localStorage.setItem("myList", JSON.stringify(addCart));
+  }, [addCart]);
+  
   return (
     <div>
       <CartContext.Provider value={[addCart, setAddCart]}>

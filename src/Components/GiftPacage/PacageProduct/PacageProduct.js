@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom';
 import RelatedProduct from '../../RelatedProduct/RelatedProduct';
 
 const PacageProduct = () => {
+    //localstorage 
+    const getGift = () =>{
+        const list = localStorage.getItem("myGift");
+        if (list){
+            return JSON.parse(list);
+        }else{
+            return [];
+        }
+    };
+
     const { id } = useParams();
     const [pacageProduct, setPacageProduct] = useState([]);
 
@@ -18,12 +28,19 @@ const PacageProduct = () => {
         }
     }, [id]);
 
+   
     //add to cart list
-    const [addGift, setAddGift] = useState([]);
+    const [addGift, setAddGift] = useState(getGift());
     const addPackage = (prd) => {
         const newGift = [...addGift, prd]
         setAddGift(newGift);
     };
+
+     //localstorage 
+     useEffect(() =>{
+        localStorage.setItem("myGift", JSON.stringify(addGift));
+    },[addGift]);
+
     //remove product package
     const removeGift = (key) => {
         const newGif = addGift.filter(gf => gf.key !== key);
