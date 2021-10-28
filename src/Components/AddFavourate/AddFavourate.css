@@ -1,0 +1,83 @@
+.add_favourate_section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.add_favourate_section h3{
+    color: #444;
+    font-size: 25px;
+}
+.favourate_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.favourate{
+    width: 18%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+.favourate:hover img{
+    transform: scale(1.1);
+}
+.favourate img{
+    width: 50%;
+    height: 80px;
+    display: block;
+    margin: auto;
+    transition: .2s;
+}
+.remove_favourate_item_icon i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+}
+.favourate h5{
+    margin-top: 10px;
+    text-align: center;
+    color: #444;
+}
+.favourate div{
+    display: flex;
+    margin-top: 10px;
+}
+.favourate div del{
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #777;
+}
+.favourate div p{
+    width: 60%;
+    color: #3498DB;
+}
+.fav_ratings{
+    margin-top: 10px;
+}
+.fav_ratings i{
+    font-size: 12px;
+    color: orange;
+}
+.fav_ratings span{
+    color: #444;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.fav_btn_btn{
+    margin-top: 10px;
+}
+.fav_btn_btn button{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #3498DB;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}

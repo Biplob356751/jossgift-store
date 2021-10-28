@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import './NewProduct.css';
 import ProductData from '../ProductData/ProductData.json';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../../../App';
+import { CartContext, FavContext } from '../../../App';
 
 const NewProduct = () => {
     const [newProduct, setNewProduct] = useState([]);
@@ -20,6 +20,13 @@ const NewProduct = () => {
     const [more, setMore] = useState(10)
     const handleSeeMoreProduct = () => {
         setMore((preValue) => preValue + 5)
+    };
+
+    //addFavourate product
+    const [addFavourate, setFavourate] = useContext(FavContext);
+    const handleFavProductItem = (newPrd) => {
+        const newfav = [...addFavourate, newPrd];
+        setFavourate(newfav);
     }
     return (
         <div className="new_product_section">
@@ -31,7 +38,7 @@ const NewProduct = () => {
                             <img src={newPrd.image} alt="image" />
                             <h5>{newPrd.productname}</h5>
                             <div className="best_favourate_product">
-                                <i className="fa fa-heart"></i>
+                                <i onClick={() => handleFavProductItem(newPrd)} className="fa fa-heart"></i>
                             </div>
                             <div>
                                 <del>{newPrd.price}$</del>

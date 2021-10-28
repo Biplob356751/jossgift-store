@@ -12,11 +12,15 @@ import ProductDetails from './Components/ProductDetails/ProductDetails';
 import Details from './Components/Details/Details';
 import Footer from './Components/Footer/Footer';
 import CatagoryPage from './Components/CatagoryPage/CatagoryPage';
+import AddFavourate from './Components/AddFavourate/AddFavourate';
 
+//context api
 export const CartContext = createContext();
+export const FavContext = createContext();
+
 const App = () => {
 
-  //localstorage 
+  //localstorage addProduct
   const getProduct = () => {
     const list = localStorage.getItem("myList");
     if (list) {
@@ -26,50 +30,71 @@ const App = () => {
     }
   }
 
+  //localstorage addFavourate product list
+  const getFavourateProduct = () => {
+    const Favlist = localStorage.getItem("myFavList");
+    if (Favlist) {
+      return JSON.parse(Favlist);
+    } else {
+      return [];
+    }
+  }
+
   //context api
   const [addCart, setAddCart] = useState(getProduct());
-  
-  //localstorage 
+  const [addFavourate, setAddFavourate] = useState(getFavourateProduct());
+
+  //localstorage addProduct
   useEffect(() => {
     localStorage.setItem("myList", JSON.stringify(addCart));
   }, [addCart]);
-  
+
+  //localstorage  addFavourate Products
+  useEffect(() => {
+    localStorage.setItem("myFavList", JSON.stringify(addFavourate));
+  }, [addFavourate]);
+
   return (
     <div>
       <CartContext.Provider value={[addCart, setAddCart]}>
-        <Router>
-          <Nav></Nav>
-          <Switch>
-            <Route path="/" exact>
-              <Shop></Shop>
-            </Route>
-            <Route path="/about">
-              <About></About>
-            </Route>
-            <Route path="/pacage/:id">
-              <PacageProduct></PacageProduct>
-            </Route>
-            <Route path="/pacageDetails/:key">
-              <PacageDetails></PacageDetails>
-            </Route>
-            <Route path='/details/:key'>
-              <Details></Details>
-            </Route>
-            <Route path='/catagorypage'>
-              <CatagoryPage></CatagoryPage>
-            </Route>
-            <Route path="/catagory/:catagoryname">
-              <Catagory></Catagory>
-            </Route>
-            <Route path="/addToCart">
-              <AddToCart></AddToCart>
-            </Route>
-            <Route path="/productdetails/:key">
-              <ProductDetails></ProductDetails>
-            </Route>
-          </Switch>
-          <Footer></Footer>
-        </Router>
+        <FavContext.Provider value={[addFavourate, setAddFavourate]}>
+          <Router>
+            <Nav></Nav>
+            <Switch>
+              <Route path="/" exact>
+                <Shop></Shop>
+              </Route>
+              <Route path="/about">
+                <About></About>
+              </Route>
+              <Route path="/pacage/:id">
+                <PacageProduct></PacageProduct>
+              </Route>
+              <Route path="/pacageDetails/:key">
+                <PacageDetails></PacageDetails>
+              </Route>
+              <Route path='/details/:key'>
+                <Details></Details>
+              </Route>
+              <Route path='/catagorypage'>
+                <CatagoryPage></CatagoryPage>
+              </Route>
+              <Route path="/catagory/:catagoryname">
+                <Catagory></Catagory>
+              </Route>
+              <Route path="/addToCart">
+                <AddToCart></AddToCart>
+              </Route>
+              <Route path="/addToFavourate">
+                <AddFavourate></AddFavourate>
+              </Route>
+              <Route path="/productdetails/:key">
+                <ProductDetails></ProductDetails>
+              </Route>
+            </Switch>
+            <Footer></Footer>
+          </Router>
+        </FavContext.Provider>
       </CartContext.Provider>
     </div>
   );

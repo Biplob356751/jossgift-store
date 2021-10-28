@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../../App';
+import { CartContext, FavContext } from '../../App';
 import Logo from "./logo.png";
 import './Nav.css';
 
 const Nav = () => {
     const [addCart, setAddCart] = useContext(CartContext);
+    const [addFavourate, setAddFavourate] = useContext(FavContext);
     return (
         <div className="nav_bar">
             <div className="container_fluid">
@@ -33,7 +34,7 @@ const Nav = () => {
                     </div>
                     <div className="fav_icon">
                         <Link to="/addToFavourate"><i className="far fa-heart"></i></Link>
-                        <div>4</div>
+                        <div>{addFavourate.length}</div>
                     </div>
                     <div className="cart_icon">
                         <Link to="/addToCart"><i className="fas fa-shopping-cart"></i></Link>

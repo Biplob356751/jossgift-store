@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import './Catagory.css';
 import ProductCatagoryData from '../ProductCatagoryData/ProductCatagoryData.json';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../../../App';
+import { CartContext, FavContext } from '../../../App';
 import RelatedProduct from '../../RelatedProduct/RelatedProduct';
 
 
@@ -31,6 +31,15 @@ const Catagory = () => {
     const loadMore = () =>{
         setLoad((preValue) => preValue + 5)
     }
+    //addfavourate product list
+    const [addFavourate, setAddFavourate] = useContext(FavContext);
+    const handleFavourateItem = (product) =>{
+        const newFav = [...addFavourate, product];
+        setAddFavourate(newFav);
+    }
+
+
+
     return (
         <div className="catagory_page">
             <div className="container_fluid">
@@ -52,7 +61,7 @@ const Catagory = () => {
                                 <h5>{product.productname}</h5>
                                 <p>{product.discount}%</p>
                                 <div className="heart_icon">
-                                    <i className="fas fa-heart"></i>
+                                    <i onClick={() => handleFavourateItem(product)} className="fas fa-heart"></i>
                                 </div>
                                 <div>
                                     <del>{product.price}$</del>

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import './FeatureProduct.css';
 import ProductData from '../ProductData/ProductData.json';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../../../App';
+import { CartContext, FavContext } from '../../../App';
 
 const FeatureProduct = () => {
     const [feature, setFeature] = useState([]);
@@ -22,7 +22,12 @@ const FeatureProduct = () => {
     const handleFeatueLoadproduct = () => {
         setFeatureLoad((preValue) => preValue + 5)
     };
-    
+    //addFavourate product
+    const [addFavourate, setFavourate] = useContext(FavContext);
+    const handleFavProducts = (fetur) => {
+        const newfav = [...addFavourate, fetur];
+        setFavourate(newfav);
+    }
     return (
         <div className="feature_product_page">
             <h3>Feature Product</h3>
@@ -33,7 +38,7 @@ const FeatureProduct = () => {
                             <img src={fetur.image} alt="image" />
                             <h5>{fetur.productname}</h5>
                             <div className="best_favourate_product">
-                                <i className="fa fa-heart"></i>
+                                <i onClick={() => handleFavProducts(fetur)} className="fa fa-heart"></i>
                             </div>
                             <div>
                                 <del>{fetur.price}$</del>

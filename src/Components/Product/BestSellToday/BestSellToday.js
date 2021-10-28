@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import './BestSellToday.css';
 import ProductData from '../ProductData/ProductData.json';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../../../App';
+import { CartContext, FavContext } from '../../../App';
 
 const BestSellToday = () => {
     const [bestSell, setBestSell] = useState([]);
@@ -22,6 +22,14 @@ const BestSellToday = () => {
         setMoreProduct((preValue) => preValue + 5)
     }
 
+    //addFavourate product
+    const [addFavourate, setFavourate] = useContext(FavContext);
+    const handleFavProduct = (best) => {
+        const newfav = [...addFavourate, best];
+        setFavourate(newfav);
+    }
+
+
     return (
         <div className="best_sell_today_content">
             <h3>Best Sell Of Today</h3>
@@ -32,7 +40,7 @@ const BestSellToday = () => {
                             <img src={best.image} alt="image" />
                             <h5>{best.productname}</h5>
                             <div className="best_favourate_product">
-                                <i className="fa fa-heart"></i>
+                                <i onClick={() => handleFavProduct(best)} className="fa fa-heart"></i>
                             </div>
                             <div>
                                 <del>{best.price}$</del>
