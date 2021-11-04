@@ -27,7 +27,6 @@
     cursor: pointer;
 }
 #times_icon{
-    padding: 5px 12px;
     opacity: 0;
     visibility: hidden;
 }
@@ -143,6 +142,8 @@
     background-color: #fff;
     padding: 20px;
     height: 89vh;
+    transition: .3s;
+    z-index: 9999;
 }
 .menu li{
     margin-top: 30px;

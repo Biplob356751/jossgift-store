@@ -7,15 +7,42 @@ import './Nav.css';
 const Nav = () => {
     const [addCart, setAddCart] = useContext(CartContext);
     const [addFavourate, setAddFavourate] = useContext(FavContext);
+
+    //Toggle Menu bar  visibility
+    const handleBarIcon = () => {
+        document.getElementById("menu").style.opacity = '0';
+        document.getElementById("menu").style.visibility = 'hidden';
+        document.getElementById("menu").style.transform = 'translateX(-10px)';
+        document.querySelector('body').style.width = '100%';
+        document.querySelector('body').style.transition = '.3s';
+        document.getElementById('bar_icon').style.opacity = '0';
+        document.getElementById('bar_icon').style.visibility = 'hidden';
+        document.getElementById('times_icon').style.opacity = '1';
+        document.getElementById('times_icon').style.visibility = 'visible';
+
+    };
+    const handleTimesIcon = () => {
+        document.getElementById("menu").style.opacity = '1';
+        document.getElementById("menu").style.visibility = 'visible';
+        document.getElementById("menu").style.transform = 'translateX(0px)';
+        document.querySelector('body').style.width = '85%';
+        document.getElementById('bar_icon').style.opacity = '1';
+        document.getElementById('bar_icon').style.visibility = 'visible';
+        document.getElementById('times_icon').style.opacity = '0';
+        document.getElementById('times_icon').style.visibility = 'hidden';
+
+    }
+
+
     return (
         <div className="nav_bar">
             <div className="container_fluid">
                 <div className="main_menu_item">
                     <div className="bar_icon">
-                        <i className="fa fa-bars"></i>
-                        <i id="times_icon" className="fa fa-times"></i>
+                        <i onClick={handleBarIcon} id="bar_icon" className="fa fa-bars"></i>
+                        <i onClick={handleTimesIcon} id="times_icon" className="fa fa-bars"></i>
                     </div>
-                    <div className="menu">
+                    <div className="menu" id="menu">
                         <nav>
                             <ul>
                                 <li><i className="fas fa-store-alt"></i> <Link to="/">Shop</Link></li>
