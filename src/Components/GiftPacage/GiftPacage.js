@@ -16,8 +16,8 @@ const GiftPacage = () => {
             <div className="pacage_content">
                 {
                     pacage.map(gift =>
-                        <Link to={`/pacage/${gift.id}`}>
-                            <div className="gift_item" key={gift.id}>
+                        <Link to={`/pacage/${gift.id}`} key={gift.id}>
+                            <div className="gift_item">
                                 <img src={gift.image} alt="" />
                                 <h4>{gift.title}</h4>
                             </div>

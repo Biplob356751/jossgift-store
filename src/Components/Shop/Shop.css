@@ -26,3 +26,23 @@
     margin-top: 100px;
     margin-bottom: 50px; 
 }
+
+/* Responsive part start here */
+
+@media (max-width: 700px){
+    .carousel_section{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media (max-width: 425px){
+    .carousel_section{
+        width: 92%;
+        margin: -20px auto;
+    }
+}
+@media (max-width: 340px){
+    .carousel_section{
+        width: 90%;
+    }
+}

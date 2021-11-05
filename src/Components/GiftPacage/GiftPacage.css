@@ -23,3 +23,31 @@
     text-align: center;
     color: #777;
 }
+
+/* Responsive part start here */
+@media (max-width: 900px){
+    .pacage_content{
+       grid-gap: 2%;
+    }
+    .gift_item h4{
+        padding: 30px 10px;
+        font-size: 15px; 
+    }
+    .gift_item img{
+        height: 130px !important;
+    }
+}
+@media (max-width: 768px){
+    .pacage_content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 575px){
+    .pacage_content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gift_item img{
+        height: 150px !important;
+    }
+}
+

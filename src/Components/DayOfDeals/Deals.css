@@ -22,9 +22,10 @@
     color: orange;
 }
 .deals{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
 }
 .deals h4{
@@ -38,7 +39,79 @@
     font-size: 20px;
 }
 .day_deals{
+    width: 20%;
     padding: 20px 10px;
     border: 1px solid #3498DB;
 
 }
+
+/* Responsive part start here */
+
+@media (max-width: 1024px){
+    .deals_content{
+        width: 100%;
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 700px){
+    .day_deals{
+        width: 23%;
+    }
+    .deals_content h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 630px){
+    .deals h4{
+        font-size: 25px;
+    }
+    .deals p{
+        font-size: 16px;
+    }
+    .deals_content h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 575px){
+    .deals_content{
+        padding: 100px 20px;
+    }
+    .deals_content h1{
+        font-size: 23px;
+    }
+}
+@media (max-width: 475px){
+    .deals h4{
+        font-size: 20px;
+    }
+    .deals p{
+        font-size: 13px;
+    }
+    .deals_content h1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .deals h4{
+        font-size: 18px;
+    }
+    .deals p{
+        font-size: 12px;
+    }
+    .day_deals{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px){
+    .deals h4{
+        font-size: 16px;
+    }
+    .deals p{
+        font-size: 10px;
+    }
+    .day_deals{
+        padding: 5px;
+    }
+}
+

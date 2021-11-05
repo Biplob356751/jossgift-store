@@ -13,8 +13,10 @@ import Review from '../Review/Review';
 const Shop = () => {
     return (
         <div className="shop_page">
-            <div className="container_fluid">
-                <Carousel></Carousel>
+            <div className="container_fluidd">
+                <div className="carousel_section">
+                    <Carousel></Carousel>
+                </div>
                 <div className="brand_section">
                     <Brand></Brand>
                 </div>

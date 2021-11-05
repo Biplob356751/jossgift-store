@@ -27,3 +27,116 @@
     font-size: 15px;
     line-height: 25px;
 }
+.slick-prev:before, .slick-next:before{
+    display: none !important; 
+}
+/*============= Responsive part start here ===========*/
+@media (max-width: 1150px){
+    .slider_img_content{
+        width: 70%;
+    }
+}
+@media (max-width: 992px){
+    .carousel_slider{
+        margin-top: 100px;
+    } 
+}
+@media (max-width: 900px){
+    .carousel_item img{
+        height: 350px !important;
+    }
+    .slider_img_content{
+        width: 80%;
+    }
+}
+@media (max-width: 850px){
+    .carousel_slider{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 800px){
+    .carousel_item img{
+        height: 300px !important;
+    }
+    .slider_img_content h2{
+        font-size: 25px;
+    }
+    .slider_img_content p{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 700px){
+    .carousel_item img{
+        height: 260px !important;
+    }
+    .slider_img_content{
+        width: 90%;
+    }
+    
+}
+@media (max-width: 600px){
+    .carousel_item img{
+        height: 230px !important;
+    }
+}
+@media (max-width: 530px){
+    .carousel_item img{
+        height: 200px !important;
+    }
+    .slider_img_content h2{
+        font-size: 20px;
+    }
+    .slider_img_content p{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .carousel_item img{
+        height: 230px !important;
+    }
+      
+}
+@media (max-width: 450px){
+    .carousel_item img{
+        height: 180px !important;
+    }
+    .slider_img_content h2{
+        font-size: 16px;
+    }
+    .slider_img_content p{
+        line-height: 15px;
+        font-size: 10px;
+    }
+      
+}
+@media (max-width: 425px){
+    .carousel_item img{
+        height: 150px !important;
+    }
+    .carousel_slider{
+        margin-top: 100px;
+    }
+    .slider_img_content{
+        padding: 10px;
+    }
+    .slider_img_content h2{
+        font-size: 14px;
+    }
+    .slider_img_content p{
+        line-height: 15px;
+        font-size: 10px;
+    }
+      
+}
+@media (max-width: 375px){
+    .carousel_item img{
+        height: 140px !important;
+    }
+    .carousel_slider{
+        margin-top: 90px;
+    }
+      
+}

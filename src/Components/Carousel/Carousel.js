@@ -13,7 +13,8 @@ const Carousel = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        fade: true
+        fade: true,
+        
     };
     const carouselData = [
         {

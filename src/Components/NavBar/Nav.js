@@ -12,7 +12,7 @@ const Nav = () => {
     const handleBarIcon = () => {
         document.getElementById("menu").style.opacity = '0';
         document.getElementById("menu").style.visibility = 'hidden';
-        document.getElementById("menu").style.transform = 'translateX(-10px)';
+        document.getElementById("menu").style.transform = 'scaleX(0)';
         document.querySelector('body').style.width = '100%';
         document.querySelector('body').style.transition = '.3s';
         document.getElementById('bar_icon').style.opacity = '0';
@@ -20,18 +20,40 @@ const Nav = () => {
         document.getElementById('times_icon').style.opacity = '1';
         document.getElementById('times_icon').style.visibility = 'visible';
 
+        if(window.innerWidth <= 992){
+            document.getElementById('menu').style.visibility = "visible";
+            document.getElementById('menu').style.opacity = "1";
+            document.getElementById('menu').style.transform = "scaleX(1)";
+        }else{
+            document.getElementById('menu').style.visibility = "hidden";
+            document.getElementById('menu').style.opacity = "0";
+            document.getElementById('menu').style.transform = "scaleX(0)";
+        }
+
     };
     const handleTimesIcon = () => {
         document.getElementById("menu").style.opacity = '1';
         document.getElementById("menu").style.visibility = 'visible';
-        document.getElementById("menu").style.transform = 'translateX(0px)';
-        document.querySelector('body').style.width = '85%';
+        document.getElementById("menu").style.transform = 'scaleX(1)';
+        document.querySelector('body').style.width = '84%';
         document.getElementById('bar_icon').style.opacity = '1';
         document.getElementById('bar_icon').style.visibility = 'visible';
         document.getElementById('times_icon').style.opacity = '0';
         document.getElementById('times_icon').style.visibility = 'hidden';
 
+        if(window.innerWidth <= 992){
+            document.getElementById('menu').style.visibility = "hideen";
+            document.getElementById('menu').style.opacity = "0";
+            document.getElementById('menu').style.transform = "scaleX(0)";
+        }else{
+            document.getElementById('menu').style.visibility = "visible";
+            document.getElementById('menu').style.opacity = "1";
+            document.getElementById('menu').style.transform = "scaleX(1)";
+        }
+
     }
+
+    //Toggle Menu bar  visibility end
 
 
     return (
@@ -74,6 +96,23 @@ const Nav = () => {
                         <img src="https://www.pngitem.com/pimgs/m/4-42408_vector-art-design-men-fashion-vector-art-illustration.png" alt="" />
                         <i className="fas fa-caret-down"></i>
                     </div>
+                </div>
+            </div>
+            <div className="buttom_menu">
+                <div className="cart_icon">
+                    <Link to="/addToCart"><i className="fas fa-shopping-cart"></i></Link>
+                    <div>{addCart.length}</div>
+                </div>
+                <div className="fav_icon">
+                    <Link to="/addToFavourate"><i className="far fa-heart"></i></Link>
+                    <div>{addFavourate.length}</div>
+                </div>
+                <div className="signup_btn">
+                    <Link to="/signup">SignUp</Link>
+                </div>
+                <div className="user_profile">
+                    <img src="https://www.pngitem.com/pimgs/m/4-42408_vector-art-design-men-fashion-vector-art-illustration.png" alt="" />
+                    <i className="fas fa-caret-down"></i>
                 </div>
             </div>
         </div>

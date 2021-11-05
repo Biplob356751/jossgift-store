@@ -2,3 +2,40 @@
     height: 210px;
     width: 99%;
 }
+
+/*================= Responsive part start here ===========*/
+@media (max-width: 900px){
+    .mini_slider_img img{
+        height: 190px !important;
+    } 
+}
+@media (max-width: 800px){
+    .mini_slider_img img{
+        height: 160px !important;
+    } 
+}
+@media (max-width: 700px){
+    .mini_slider_img img{
+        height: 140px !important;
+    } 
+}
+@media (max-width: 600px){
+    .mini_slider_img img{
+        height: 120px !important;
+    } 
+}
+@media (max-width: 475px){
+    .mini_slider_img img{
+        height: 100px !important;
+    } 
+}
+@media (max-width: 400px){
+    .mini_slider_img img{
+        height: 90px !important;
+    } 
+}
+@media (max-width: 375px){
+    .mini_slider_img img{
+        height: 70px !important;
+    } 
+}

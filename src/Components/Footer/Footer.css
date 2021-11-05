@@ -3,9 +3,13 @@
     background-color: #eee;
 }
 .footer_content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer_content_logo{
+    width: 28%;
+    margin-top: 10px;
 }
 .footer_content_logo img{
     width: 60%;
@@ -17,6 +21,9 @@
     margin-top: 20px;
     text-align: center;
 }
+.customar_service{
+    width: 30%;
+}
 .customar_service h3{
     font-size: 25px;
     color: #444;
@@ -27,6 +34,9 @@
     font-size: 16px;
     margin-bottom: 10px;
     display: block;
+}
+.support{
+    width: 32%;
 }
 .support h3{
     font-size: 25px;
@@ -57,4 +67,65 @@
     padding: 10px;
     border: 1px solid #ddd;
     height: 70px
+}
+
+/* Responsive part start here */
+@media (max-width: 1200px){
+    .footer_content_logo{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1150px){
+    .payment_method{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2%;
+    }
+}
+@media (max-width: 992px){
+    .footer_content_logo{
+        width: 48%;
+    }
+    .customar_service{
+        width: 48%;
+        margin-top: 30px;
+    }
+    .support{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .payment_method{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2%;
+        width: 50%;
+        margin: 30px auto;
+    }
+    .payment_method img{
+        height: 100px;
+    }
+
+}
+@media (max-width: 575px){
+    .footer_content_logo{
+        width: 100%;
+    }
+    .customar_service{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .support{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .payment_method{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2%;
+        width: 50%;
+        margin: 30px auto;
+    }
+    .payment_method img{
+        height: 100px;
+    }
+
 }

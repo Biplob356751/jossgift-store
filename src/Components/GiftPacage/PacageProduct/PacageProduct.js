@@ -63,7 +63,7 @@ const PacageProduct = () => {
                     <div className="add_gift_product_list">
                         {
                             addGift.map(gft =>
-                             <div className="add_gift_product_list_item">
+                             <div className="add_gift_product_list_item" key={gft.key}>
                                  <img src={gft.img} alt="" />
                                  <h5>{gft.name}</h5>
                                  <p>{gft.price - gft.discount/100*gft.price} $</p>
