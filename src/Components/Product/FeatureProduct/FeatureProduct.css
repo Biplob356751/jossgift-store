@@ -13,3 +13,13 @@
     color: #444;
     font-size: 25px;
 }
+
+/* Responsive part start here */
+@media (max-width: 475px){
+    .feature_product_page h3{
+        font-size: 23px;
+    } 
+    .load_more_button button{
+        padding: 9px 15px;
+    }
+}

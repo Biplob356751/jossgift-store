@@ -103,7 +103,49 @@
     .payment_method img{
         height: 100px;
     }
+    .footer_section{
+        padding: 50px 20px 130px 20px;
+    }
 
+}
+@media (max-width: 900px){
+    .customar_service{
+        margin-top: 28px;
+    }
+}
+@media (max-width: 900px){
+    .customar_service{
+        margin-top: 23px;
+    }
+}
+@media (max-width: 768px){
+    .customar_service{
+        margin-top: 18px;
+    }
+    .payment_method{
+        width: 60%;
+    }
+    .payment_method img{
+        height: 80px;
+    }
+}
+@media (max-width: 700px){
+    .customar_service{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 650px){
+    .customar_service{
+        margin-top: 12px;
+    }
+    .payment_method{
+        width: 70%;
+    }
+}
+@media (max-width: 600px){
+    .customar_service{
+        margin-top: 0px;
+    }
 }
 @media (max-width: 575px){
     .footer_content_logo{
@@ -111,21 +153,60 @@
     }
     .customar_service{
         width: 100%;
-        margin-top: 30px;
+        margin-top: 50px;
+        text-align: center;
     }
     .support{
         width: 100%;
         margin-top: 50px;
         text-align: center;
     }
+
+}
+@media (max-width: 525px){
     .payment_method{
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2%;
-        width: 50%;
-        margin: 30px auto;
+        width: 80%;
     }
-    .payment_method img{
-        height: 100px;
+}
+@media (max-width: 475px){
+    .footer_content_logo img{
+        width: 50%;
+    }
+    .footer_content_logo p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .customar_service h3{
+        font-size: 23px;
+    }
+    .customar_service a{
+        font-size: 14px;
+    }
+    .support h3{
+        font-size: 23px;
+    }
+    .support p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .support i{
+        margin-top: 10px;
     }
 
+}
+@media (max-width: 450px){
+    .payment_method{
+        width: 100%;
+    }
+    .payment_method img{
+        height: 70px;
+    }
+}
+@media (max-width: 375px){
+    .payment_method img{
+        height: 60px;
+    }
+    .footer_content_logo img{
+        width: 60%;
+    }
 }

@@ -41,3 +41,15 @@
     
     }
 }
+@media (max-width: 475px){
+    .product_catagory_content{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 4%;
+    }
+    .catagory_item{
+        padding: 7px;
+    }
+    .product_catagory h3{
+        font-size: 23px;
+    }
+}

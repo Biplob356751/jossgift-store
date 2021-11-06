@@ -27,3 +27,15 @@
         grid-row-gap: 10%;
     }
 }
+@media (max-width: 475px) {
+    .product_brand_img_item img{
+        width: 70%;
+        height: 70px;
+    }
+    .product_brand_img_item{
+        padding: 5px;
+    }
+    .brand_product_img h3{
+        font-size: 23px;
+    }
+}

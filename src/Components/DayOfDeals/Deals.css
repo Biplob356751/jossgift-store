@@ -88,7 +88,13 @@
         font-size: 13px;
     }
     .deals_content h1{
-        font-size: 20px;
+        font-size: 19px;
+    }
+    .deals_content{
+        padding: 40px 20px;
+    }
+    .day_of_deals_page h3{
+        font-size: 23px;
     }
 }
 @media (max-width: 400px){
@@ -112,6 +118,9 @@
     }
     .day_deals{
         padding: 5px;
+    }
+    .deals_content h1{
+        margin-bottom: 40px;
     }
 }
 

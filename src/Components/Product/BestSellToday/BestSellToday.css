@@ -156,6 +156,9 @@
     .best_sell img{
         height: 80px;
     } 
+    .best_sell_today_content{
+        margin-top: 130px;
+    }
 }
 @media (max-width: 600px){
     .best_sell{
@@ -175,6 +178,55 @@
     .best_sell img{
         height: 80px !important;
         width: 50% !important;
+    }
+}
+@media (max-width: 475px){
+    .best_sell img{
+        height: 70px !important;
+    }
+    .best_sell_today_content h3{
+        font-size: 23px;
+    }
+    .best_sell_today_content .show_more_btn button{
+        padding: 9px 15px;
+    }
+    .best_sell{
+        padding: 6px;
+    }
+    .best_sell_btn{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 375px){
+    .best_sell img{
+        height: 55px !important;
+    }
+    .best_sell_btn button{
+        padding: 6px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .best_sell_btn button a{
+        font-size: 12px;
+    }
+    .sell_ratings{
+        margin-top: 5px;
+    }
+    .best_sell div del{
+        font-size: 12px;
+    }
+    .best_sell div span{
+       font-size: 13px;
+    }
+    .best_sell p{
+        font-size: 12px;
+    }
+ 
+}
+@media (max-width: 340px){
+    .best_sell img{
+        height: 50px !important;
     }
 }
 

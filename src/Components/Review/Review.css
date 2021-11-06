@@ -32,3 +32,49 @@
 .review_slider_img_content i{
     color: orange;
 }
+/* Responsive part start here */
+
+@media (max-width: 875px){
+    .review_slider{
+        width: 80%;
+    }
+}
+@media (max-width: 768px){
+    .review_slider{
+        width: 90%;
+    }
+}
+@media (max-width: 675px){
+    .review_slider_img_content p{
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .review_slider_img_content p{
+        font-size: 14px;
+    }
+    .review_slider{
+       padding: 20px;
+    }
+}
+@media (max-width: 475px){
+    .review_slider_img_content p{
+        font-size: 13px;
+    }
+    .review_slider{
+       width: 100%;
+    }
+    .review_slider_item img{
+        width: 80px;
+        height: 80px;
+    }
+    .review_slider_img_content h2{
+        font-size: 17px;
+    }
+    .review_slider_img_content i{
+       font-size: 14px;
+    }
+    .user_review_page h3{
+        font-size: 23px;
+    }
+}
