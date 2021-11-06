@@ -5,3 +5,10 @@
     color: #444;
     font-size: 25px;
 }
+
+/* Responsive part start here */
+@media (max-width: 475px){
+    .related_product_section h3{
+        font-size: 23px;
+    } 
+}

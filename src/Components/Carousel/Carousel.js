@@ -30,7 +30,7 @@ const Carousel = () => {
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quam praesentium quaerat ea maiores delectus odit provident non, accusamus veniam!"
         },
         {
-            image: "https://lh3.googleusercontent.com/proxy/O0MFyFzAw7_ZShNIku1UWV8EuQJl-_TIpbavOnqsiJ0W7S_zz0G2lGLJBA3wS7EpufVm_1aLlvTBzwCUYt-sy1M4hr_Crvp1J1DaF-BU3l2GAhyZ6QmjTOFTAEIZCmCFx6GMag",
+            image: "https://media.istockphoto.com/photos/yellow-headphones-on-yellow-background-music-concept-picture-id1065348312?k=20&m=1065348312&s=170667a&w=0&h=gBecOnLbIclvcr45hIppLOBE-bNku5lTRA9ACPm_Do0=",
             title: "A Brand New Camera Nikkon",
             id: "slider3",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quam praesentium quaerat ea maiores delectus odit provident non, accusamus veniam!"

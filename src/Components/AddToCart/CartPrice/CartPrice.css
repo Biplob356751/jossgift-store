@@ -31,3 +31,13 @@
     width: 50%;
     text-align: center;
 }
+/* Responsive part start here */
+
+@media (max-width: 475px){
+    .cart_price_section h1{
+        font-size: 23px;
+    }
+    .cart_price_section h2{
+        font-size: 17px;
+    }
+}

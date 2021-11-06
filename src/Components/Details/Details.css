@@ -50,7 +50,7 @@
 .details_content_content_info p{
     margin-top: 40px;
 }
-.multi_image{
+/* .multi_image{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2%;
@@ -64,4 +64,30 @@
     padding: 10px;
     border: 1px solid #3498DB;
     height: 60px;
+} */
+
+/* Responsive part start here */
+
+@media (max-width: 900px){
+    .product_details_content_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .details_content_image{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 475px){
+    .details_content_image{
+        width: 90%;
+    }
+    .details_content_content_info h2{
+        font-size: 23px;
+    }
+    .details_content_content_info p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
 }

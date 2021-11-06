@@ -81,3 +81,70 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 1250px) {
+    .favourate img{
+       height: 60px;
+    }
+    .fav_ratings{
+        margin-top: 0px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .favourate{
+        width: 23%;
+        padding: 5px;
+    }
+    .fav_btn_btn{
+        margin-bottom: 6px;
+    }
+}
+@media (max-width: 768px) {
+    .favourate{
+        width: 31%;
+    }
+    .favourate img{
+        height: 80px;
+     }
+}
+@media (max-width: 600px) {
+    .favourate{
+        width: 32%;
+    }
+    .favourate img{
+        height: 60px;
+     }
+}
+@media (max-width: 575px) {
+    .favourate{
+        width: 48%;
+    }
+    .favourate img{
+        height: 90px;
+     }
+     .fav_ratings{
+        margin-top: 10px !important;
+    }
+}
+@media (max-width: 475px) {
+    .favourate{
+        width: 48%;
+    }
+    .favourate img{
+        height: 60px;
+        width: 50%;
+     }
+     .fav_ratings{
+        margin-top: 0px !important;
+    }
+    .favourate div p{
+       font-size: 14px;
+       font-weight: bold;
+    }
+    .favourate div del{
+       font-size: 12px;
+    }
+    .add_favourate_section h3{
+        font-size: 23px;
+    }
+}
