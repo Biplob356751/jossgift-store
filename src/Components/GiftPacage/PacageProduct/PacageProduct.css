@@ -99,7 +99,7 @@
     font-size: 14px;
 }
 .add_pacage_product h3{
-    font-size: 30px;
+    font-size: 25px;
     color: #444;
 }
 .pacage_product{
@@ -191,4 +191,109 @@
     color: #fff;
     border-radius: 3px;
     border: none;
+}
+
+/* Responsive part start here */
+
+@media (max-width: 1200px) {
+    .pacage_product_item img{
+        width: 50%;
+       height: 60px;
+    }
+    .rating{
+        margin-top: 5px !important;
+    }
+    .pacage_product_item{
+        width: 19%;
+        padding: 5px;
+    }
+    .pacage_product_btn{
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    .add_gift_product_list_item img{
+        height: 60px;
+    }
+}
+@media (max-width: 1024px) {
+    .pacage_product_item img{
+       height: 65px;
+    }
+    .pacage_product_item{
+        width: 24%;
+    }
+    .add_gift_product_list_item{
+        width: 23%;
+    }
+}
+@media (max-width: 768px) {
+    .pacage_product_item img{
+       height: 75px;
+    }
+    .pacage_product_item{
+        width: 31%;
+        padding: 10px;
+    }
+    .add_gift_product_list_item{
+        width: 31%;
+    }
+    .add_gift_product_list_item img{
+        height: 70px;
+    }
+}
+@media (max-width: 575px) {
+    .pacage_product_item img{
+       height: 80px;
+    }
+    .pacage_product_item{
+        width: 48%;
+    }
+    .rating{
+        margin-top: 10px !important;
+    }
+    .add_gift_product_list_item{
+        width: 48%;
+    }
+    .add_gift_product_list_item img{
+        height: 80px;
+    }
+}
+@media (max-width: 475px) {
+    .pacage_product_item img{
+       height: 60px;
+    }
+    .rating{
+        margin-top: 5px !important;
+    }
+    .pacage_product_item{
+        width: 49%;
+        padding: 5px;
+    }
+    .pacage_product_btn{
+        margin-bottom: 4px;
+    }
+    .load_btn{
+        margin-top: 20px;
+    }
+    .load_btn button{
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+    .add_gift_product_list_item img{
+        height: 60px;
+        width: 70px  
+    }
+    .add_gift_product_list_item{
+        padding: 5px;
+    }
+    .add_pacage_product h3{
+        font-size: 23px;
+    }
+    .add_pacage_product{
+        padding: 10px;
+        border: 2px solid #3498DB;
+    }
+    .pacage_search_product input{
+        width: 90%;
+    }
 }

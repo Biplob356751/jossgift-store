@@ -40,7 +40,7 @@ const App = () => {
     }
   }
 
-  //context api
+  //context api value
   const [addCart, setAddCart] = useState(getProduct());
   const [addFavourate, setAddFavourate] = useState(getFavourateProduct());
 

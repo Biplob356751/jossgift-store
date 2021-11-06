@@ -45,3 +45,43 @@
 .pacage_details_content_container p{
     margin-top: 40px;
 }
+
+/* Responsive part start here */
+
+@media (max-width: 768px){
+    .pacage_details{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pacage_product_details{
+        margin-top: 100px;
+    }
+    .pacage_details_content img{
+       height: 300px
+    }
+}
+@media (max-width: 475px){
+    .pacage_product_details{
+        margin-top: 80px;
+    }
+    .pacage_details_content img{
+       height: 200px;
+       width: 70%
+    }
+    .pacage_details_content_container h3{
+        font-size: 23px;
+    }
+    .pacage_details_content_container p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .pacage_details_content_container h4{
+        font-size: 23px;
+    }
+}
+@media (max-width: 375px){
+    .pacage_details_content img{
+       height: 180px;
+       width: 70%
+    }
+    
+}
