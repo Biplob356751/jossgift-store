@@ -1,0 +1,101 @@
+.contact_page{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contact_page iframe{
+    width: 100%;
+    border: 0;
+    height: 400px;
+}
+.contact_info{
+    margin-top: 100px;
+}
+.contact_info h2{
+    text-align: center;
+    color: #444;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact_input{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+}
+.contact_input input{
+   display: block;
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #3498DB;
+   font-size: 14px; 
+   border-radius: 4px;
+   margin-bottom: 10px;
+}
+.contact_input textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+}
+.contact_input input[type="submit"]{
+    width: 30%;
+    margin-top: 20px;
+    background-color: #3498DB;
+    color: #fff;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* Responsive part start here */
+
+@media (max-width: 768px) {
+    .contact_input{
+        width: 70%;
+    }
+    .contact_page iframe{
+        height: 350px;
+    }
+}
+@media (max-width: 675px) {
+    .contact_input{
+        width: 90%;
+        padding: 20px;
+    }
+    .contact_page iframe{
+        height: 290px;
+    }
+}
+@media (max-width: 475px) {
+    .contact_input{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact_page iframe{
+        height: 250px;
+    }
+    .contact_page{
+        margin-top: 70px;
+    }
+    .contact_info h2{
+        font-size: 20px;
+    }
+    .contact_input textarea{
+        height: 140px
+     }
+     .contact_input input[type="submit"]{
+        width: 40%;
+    }
+}
+
+@media (max-width: 375px){
+    .contact_page{
+        margin-top: 60px;
+    }
+    .contact_page iframe{
+        height: 220px;
+    }
+    .contact_input input[type="submit"]{
+        padding: 8px;
+    }
+}

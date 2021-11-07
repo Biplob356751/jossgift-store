@@ -13,6 +13,9 @@ import Details from './Components/Details/Details';
 import Footer from './Components/Footer/Footer';
 import CatagoryPage from './Components/CatagoryPage/CatagoryPage';
 import AddFavourate from './Components/AddFavourate/AddFavourate';
+import Contact from './Components/Contact/Contact';
+import Signup from './Components/SignUp/Signup';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 //context api
 export const CartContext = createContext();
@@ -66,6 +69,15 @@ const App = () => {
               </Route>
               <Route path="/about">
                 <About></About>
+              </Route>
+              <Route path="/contact">
+                <Contact></Contact>
+              </Route>
+              <Route path="/signup">
+                <Signup></Signup>
+              </Route>
+              <Route path="/dashboard">
+                <Dashboard></Dashboard>
               </Route>
               <Route path="/pacage/:id">
                 <PacageProduct></PacageProduct>

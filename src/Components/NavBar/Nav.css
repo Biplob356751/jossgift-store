@@ -123,6 +123,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: relative; */
+}
+.user_profile .dashboard_info{
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 1px #e9e9e9;
+    width: 20%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .3s;
+    transform-origin: top;
+}
+.user_profile .dashboard_info a{
+    display: block;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 500;
 }
 .user_profile img{
     width: 40px;
@@ -131,7 +152,46 @@
     border: 2px solid #3498DB;
 }
 .user_profile i{
-   margin-left: 5px;
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   right: 4%;
+   transform: translate(-50%, -50%);
+}
+.dashboard_info1{
+    position: absolute;
+    bottom: 120%;
+    background-color: #fff;
+    width: 250px;
+    right: 0%;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 1px #e9e9e9;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .3s;
+    transform-origin: bottom;
+}
+.profile_dashboard #dash2{
+    opacity: 0;
+    visibility: hidden;
+}
+.profile_dashboard i{
+    cursor: pointer;
+    position: absolute;
+    top: 35% !important;
+    right: 0% !important;
+    transform: translate(-50%, -50%);
+}
+.dashboard_info1 a{
+    display: block;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 500;
+}
+#caret_icon2{
+    opacity: 0;
+    visibility: hidden;
 }
 .menu{
     position: absolute;
@@ -189,6 +249,11 @@
      .fav_icon div{
         top: -45%;
         right: 40%;
+     }
+}
+@media (max-width: 1150px){
+    .user_profile i{
+        right: 3%;
      }
 }
 @media (max-width: 1024px){
@@ -301,6 +366,9 @@
     .buttom_menu .cart_icon div{
         right: 10%;
     }
+    .profile_dashboard i{
+        left: 100%;
+    }
 }
 @media (max-width: 700px){
     .bar_icon{
@@ -409,7 +477,17 @@
     .buttom_menu .user_profile i{
         left: 60%;
     }
-
+    .profile_dashboard i{
+        left: 85px !important;
+    }
+    .dashboard_info1{
+        padding: 20px;
+        width: 200px;
+    }
+    .dashboard_info1 a{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
 }
 @media (max-width: 425px){
     .bar_icon i{
@@ -427,7 +505,15 @@
         padding: 8px 13px;
         font-size: 13px;
     }
+    .profile_dashboard i{
+        left: 80px !important;
+    }
     
+ }
+ @media (max-width: 390px){
+    .profile_dashboard i{
+        left: 75px !important;
+    }
  }
  @media (max-width: 375px){
     .menu{
@@ -435,6 +521,9 @@
     }
     .buttom_menu .user_profile i{
         left: 70%;
+    }
+    .profile_dashboard i{
+        left: 65px !important;
     }
 }
  
