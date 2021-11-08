@@ -17,6 +17,7 @@ import Contact from './Components/Contact/Contact';
 import Signup from './Components/SignUp/Signup';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Checkout from './Components/Checkout/Checkout';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 //context api
 export const CartContext = createContext();
@@ -106,6 +107,9 @@ const App = () => {
               </Route>
               <Route path="/productdetails/:key">
                 <ProductDetails></ProductDetails>
+              </Route>
+              <Route path="*">
+                <PageNotFound></PageNotFound>
               </Route>
             </Switch>
             <Footer></Footer>
