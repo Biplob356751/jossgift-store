@@ -1,0 +1,126 @@
+.checkout_page{
+    margin-bottom: 100px;
+    border: 1px solid #ddd;
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+}
+.checkout_page img{
+    width: 200px;
+    margin: 50px auto;
+    display: block;
+}
+.checkout_page h4{
+    color: #3498DB;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.user_content_info{
+    width: 100%;
+    margin: 30px auto;
+}
+.user_content_info input{
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.user_content_info input[type="city"]{
+    width: 38%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.user_content_info input[type="post"]{
+    width: 38%;
+    display: inline-block;
+    margin-left: 4%;    
+}
+.user_payment_methood{
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    margin-top: 50px;
+}
+.user_payment_methood a{
+    display: inline-block !important;
+}
+.user_payment_methood a img{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #3498DB;
+}
+
+
+.MuiButton-containedPrimary{
+    background-color: #3498DB !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+    color: #3498DB !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #3498DB !important;
+}
+.MuiButton-containedPrimary:focus{
+    outline: none !important;
+}
+/* responsve part here */
+@media (max-width: 760px){
+    .user_content_info{
+        width: 100%;
+    }
+    .user_content_info input{
+        width: 90%;
+    }
+    .user_content_info input[type="city"]{
+        width: 42%;
+        display: inline-block;
+        margin-left: 5.5%;
+    }
+    .user_content_info input[type="post"]{
+        width: 42%;
+        display: inline-block;
+        margin-left: 5.5%;    
+    }
+}
+@media (max-width: 700px){
+    .checkout_page{
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    .checkout_page{
+        padding: 20px;
+    }
+    .user_content_info input{
+        width: 100%;
+    }
+    .user_content_info input[type="city"]{
+        width: 48%;
+        margin-left: 0%;
+    }
+    .user_content_info input[type="post"]{
+        width: 48%;
+        margin-left: 4%;    
+    }
+    .user_payment_methood{
+        margin-top: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .user_payment_methood img{
+        object-fit: center;
+        margin-top: 0;
+    }
+    .checkout_page h4{
+        font-size: 14px !important;
+    }
+    .checkout_page img{
+        height: 150px !important
+    }
+}

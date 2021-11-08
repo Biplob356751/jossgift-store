@@ -16,6 +16,7 @@ import AddFavourate from './Components/AddFavourate/AddFavourate';
 import Contact from './Components/Contact/Contact';
 import Signup from './Components/SignUp/Signup';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Checkout from './Components/Checkout/Checkout';
 
 //context api
 export const CartContext = createContext();
@@ -96,6 +97,9 @@ const App = () => {
               </Route>
               <Route path="/addToCart">
                 <AddToCart></AddToCart>
+              </Route>
+              <Route path="/checkout">
+                 <Checkout></Checkout>
               </Route>
               <Route path="/addToFavourate">
                 <AddFavourate></AddFavourate>
