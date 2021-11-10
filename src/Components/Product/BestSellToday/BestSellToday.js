@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { CartContext, FavContext } from '../../../App';
 
 const BestSellToday = () => {
+
     const [bestSell, setBestSell] = useState([]);
     useEffect(() => {
         setBestSell(ProductData);

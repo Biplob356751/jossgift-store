@@ -11,6 +11,8 @@ import Deals from '../DayOfDeals/Deals';
 import Review from '../Review/Review';
 
 const Shop = () => {
+    document.title = "JossGift || JossGift Shop"
+
     return (
         <div className="shop_page">
             <div className="container_fluidd">

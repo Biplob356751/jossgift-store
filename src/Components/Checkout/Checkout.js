@@ -29,7 +29,7 @@ function getSteps() {
 }
 
 function getStepContent(stepIndex) {
-    document.title = "JossGift CheckOut"
+    document.title = "JossGift || CheckOut"
     switch (stepIndex) {
         case 0:
             return (

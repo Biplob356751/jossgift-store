@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
+    document.title = "JossGift || Contact us"
     return (
         <div className="contact_page">
             <div className="location">

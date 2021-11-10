@@ -5,6 +5,8 @@ import AddFavourate from './../AddFavourate/AddFavourate';
 import AddToCart from './../AddToCart/AddToCart';
 
 const Dashboard = () => {
+    document.title = "JossGift || My Dashboard"
+
 
     //tab tab_section
 

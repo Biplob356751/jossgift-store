@@ -5,6 +5,8 @@ import Deals from '../DayOfDeals/Deals';
 import RelatedProduct from '../RelatedProduct/RelatedProduct';
 
 const CatagoryPage = () => {
+    document.title = "JossGift || Product Catagory";
+
     return (
         <div className="catagory_page_container">
             <div className="container_fluid">

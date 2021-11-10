@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { CartContext, FavContext } from '../../../App';
 
 const NewProduct = () => {
+
     const [newProduct, setNewProduct] = useState([]);
     useEffect(() => {
         setNewProduct(ProductData);

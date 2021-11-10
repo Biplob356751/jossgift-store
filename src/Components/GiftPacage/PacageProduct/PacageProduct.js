@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import RelatedProduct from '../../RelatedProduct/RelatedProduct';
 
 const PacageProduct = () => {
+    document.title = "JossGift || Gift Pacage"
+
     //localstorage 
     const getGift = () =>{
         const list = localStorage.getItem("myGift");

@@ -4,6 +4,8 @@ import './PacageDetails.css';
 import PacageData from '../PacageData/PacageData.json'
  
 const PacageDetails = () => {
+    document.title = "JossGift || Pacage Product Details"
+
     const {key} = useParams();
     const [pacageDetails, setPacageDetails] = useState([]);
     useEffect(() =>{

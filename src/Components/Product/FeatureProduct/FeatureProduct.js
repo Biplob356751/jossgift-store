@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { CartContext, FavContext } from '../../../App';
 
 const FeatureProduct = () => {
+
     const [feature, setFeature] = useState([]);
     useEffect(() => {
         setFeature(ProductData);

@@ -7,6 +7,8 @@ import RelatedProduct from '../RelatedProduct/RelatedProduct';
 
 
 const ProductDetails = () => {
+    document.title = "JossGift || Product Details"
+
     const { key } = useParams();
     const [catagoryDetails, setCatagoryDetails] = useState([]);
 

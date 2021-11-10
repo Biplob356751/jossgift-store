@@ -7,6 +7,8 @@ import RelatedProduct from './../RelatedProduct/RelatedProduct';
 
 
 const Details = () => {
+    document.title = "JossGift || Product Details"
+
     const { key } = useParams();
     const [details, setDetails] = useState({});
     useEffect(() => {

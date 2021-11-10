@@ -4,6 +4,8 @@ import './AddToCart.css'
 import CartPrice from './CartPrice/CartPrice';
 
 const AddToCart = () => {
+    document.title = "JossGift || AddToCart Product";
+
     const [addCart, setAddCart] = useContext(CartContext);
 
     const removeItem = (key) => {

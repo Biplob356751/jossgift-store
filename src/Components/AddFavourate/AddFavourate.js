@@ -4,6 +4,8 @@ import RelatedProduct from '../RelatedProduct/RelatedProduct';
 import './AddFavourate.css';
 
 const AddFavourate = () => {
+    document.title = "JossGift || Favourate Product";
+
     const [addFavourate, setAddFavourate] = useContext(FavContext);
 
 

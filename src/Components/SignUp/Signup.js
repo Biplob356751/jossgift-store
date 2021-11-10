@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Signup.css"
+
+
 const Signup = () => {
+
+    document.title = "JossGift || Sign Up"
 
     const handleLogin = () => {
         document.getElementById('sign_up').style.display = 'none';
