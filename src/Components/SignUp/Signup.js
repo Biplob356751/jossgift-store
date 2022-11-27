@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "./Signup.css"
 
 
@@ -15,6 +14,11 @@ const Signup = () => {
     const handleRegister = () => {
         document.getElementById('sign_up').style.display = 'block';
         document.getElementById('login').style.display = 'none';
+    }
+
+    const handleForgetPass = () => {
+        document.getElementById('login').style.display = 'none';
+        document.getElementById('forget_section').style.display = 'block';
     }
 
     return (
@@ -35,7 +39,6 @@ const Signup = () => {
                         <div className="text_container">
                             <input type="password" placeholder="Confirm Password:" /><i className="fa fa-lock"></i>
                         </div>
-                        <Link to="/">Forgot your password</Link> 
                         <button>Sign Up</button>
                         <span>You Have Already Registered Please</span> <span onClick={handleLogin}  className="login">LogIn</span>
                         <div className="signIn_social_icon">
@@ -64,8 +67,21 @@ const Signup = () => {
                             <input type="password" placeholder="Password" /><i className="fa fa-lock"></i>
                         </div>
                         <input type="checkbox"/> <span className="remeber_content">Remember Me</span>
-                        <button>Log In</button>
+                        <button>Log In</button><br />
+                        <a href='#' onClick={handleForgetPass}>Forgot your password</a> <br /><br />
                         <span style={{fontSize: "13px"}}>You Don't Register Please</span> <span onClick={handleRegister} style={{color: "blue", cursor: "pointer"}}>Register</span>
+                    </div>
+                </div>
+                <div className="forget_pass_section" id='forget_section'>
+                    <h1>Please Enter Your New Password</h1>
+                    <div className="forget_pass_container">
+                        <div className="pass_container">
+                            <input type="password" placeholder="New Password" autoFocus="true" /><i className="fa fa-envelope"></i>
+                        </div>
+                        <div className="pass2_container">
+                            <input type="password" placeholder="Confirm Password" /><i className="fa fa-envelope"></i>
+                        </div>
+                        <button>Confirm</button><br />
                     </div>
                 </div>
            </div>

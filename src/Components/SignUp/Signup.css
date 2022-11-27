@@ -129,7 +129,7 @@
     left: 0;
     color: #fff;
     background-color: #3498DB;
-    padding: 9px 15px !important;
+    padding: 9px 15px  !important;
     border-radius: 4px 0 0 4px;
     font-size: 14px !important;
 }
@@ -169,6 +169,72 @@
     background-color: #444;
 }
 
+
+.forget_pass_container{
+    width: 45%;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.pass_container{
+    position: relative;
+}
+.pass2_container{
+    position: relative;
+}
+.forget_pass_container input{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    border: 1px solid #3498DB;
+    font-size: 14px;
+    color: #666;
+    border-radius: 4px;
+    padding: 8px 5px 8px 50px;
+
+}
+#forget_section{
+    display: none;
+}
+.pass_container i{
+    padding: 9px 13px 8px 8px;
+    background-color: #3498DB;
+    position: absolute;
+    top: 2%;
+    border-radius: 4px 0 0 4px;
+    color: #fff;
+}
+.pass2_container i{
+    padding: 9px 13px 8px 8px;
+    background-color: #3498DB;
+    position: absolute;
+    top: 2%;
+    border-radius: 4px 0 0 4px;
+    color: #fff;
+}
+.forget_pass_container button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3498DB;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+.forget_pass_container i{
+    background-color: #3498DB;
+}
+.forget_pass_container .email_container{
+    position: relative;
+}
+.forget_pass_container input:focus{
+    outline-color: #3498DB;
+}
+.forget_pass_section{
+    position: relative;
+}
+
 /* responsive part here */
 @media (max-width: 990px){
     .sign_up{
@@ -190,6 +256,9 @@
     } 
     .login_section .login_container{
         width: 85% !important;
+    }
+    .forget_pass_container{
+        width: 75%;
     }
 }
 @media (max-width: 575px){
@@ -229,6 +298,9 @@
     .login_section h1{
         font-size: 25px;
     }
+    .forget_pass_section h1{
+        font-size: 25px;
+    }
     .login_section .login_container{
         width: 100%;
     }
@@ -238,6 +310,9 @@
     .login_section .login_container button{
         padding: 6px 29px;
         font-size: 12px;
+    }
+    .forget_pass_container{
+        width: 100%;
     }
 }
 @media (max-width: 575px){

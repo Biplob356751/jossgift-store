@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext} from 'react';
 import { CartContext } from '../../App';
 import './AddToCart.css'
 import CartPrice from './CartPrice/CartPrice';
@@ -7,13 +7,13 @@ const AddToCart = () => {
     document.title = "JossGift || AddToCart Product";
 
     const [addCart, setAddCart] = useContext(CartContext);
-
     const removeItem = (key) => {
         const newCard = addCart.filter(pd => pd.key !== key);
         setAddCart(newCard);
     }
 
     //incriment Products
+    
     
     return (
         <div className="add_to_cart_page">

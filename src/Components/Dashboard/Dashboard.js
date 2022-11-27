@@ -47,6 +47,30 @@ const Dashboard = () => {
                              <p><i className="fa fa-check"></i>Deliary Process: <span>Case On Delivary</span></p>
                              <p><i className="fa fa-check"></i>Delivary Charge: <span>150$</span></p>
                          </div>
+
+
+                         {/* Account settings */}
+                         <div className="user_information">
+                            <h2>Personal Information:</h2>
+                            <label>Name:</label>
+                            <input type="text" placeholder="Your Name" />
+                            <label>Date Of Birth:</label>
+                            <input type="date" placeholder="Date Of Birth" />
+                            <label>Your Email Address:</label>
+                            <input type="email" placeholder="Email Address" value="biplobhossain356751@gmail.com" />
+                            <label>Your Password:</label>
+                            <input type="password" value="biplobhossain" />
+                            <label>Gender:</label>
+                            <div className="d_flex">
+                                <input type="radio" id='male' name='gender'/><label for='male' >Male</label>
+                                <input type="radio" id='female' name="gender" /><label for="female">Female</label>
+                            </div>
+                            <h4>Your Profile Picture</h4>
+                            <label>Change your Profile Picture:</label>
+                            <input type="file" />
+                            <img src="https://image.shutterstock.com/image-photo/stock-photo-headshot-portrait-of-happy-millennial-man-in-casual-clothes-isolated-on-grey-studio-background-250nw-1548802709.jpg" alt="image" />
+                            <button>Save</button>
+                        </div>
                     </div>
                     <div className={tab === 2 ? "user_content active_content_user" : "user_content"}>
                         <AddFavourate></AddFavourate>

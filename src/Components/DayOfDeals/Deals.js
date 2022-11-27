@@ -10,7 +10,7 @@ const Deals = () => {
     let interval = useRef();
 
     const startCounters = () => {
-        const countDownDate = new Date('february 31, 2022 00:00:00').getTime();
+        const countDownDate = new Date('february 31, 2023 00:00:00').getTime();
         interval = setInterval(() => {
             const now = new Date().getTime();
             const distance = countDownDate - now;

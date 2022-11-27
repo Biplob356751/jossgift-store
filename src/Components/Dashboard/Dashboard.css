@@ -109,7 +109,83 @@
     font-weight: bold;
 }
 
+.user_information{
+    margin-top: 30px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+    padding: 40px;
+}
+.user_information{
+    border-top: 5px solid #3498DB;
+}
+.user_information h2{
+    color: #444;
+    font-size: 1.3rem;
+}
+.user_information label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: .8rem;
+    color: #444;
+    font-weight: 500;
+}
+.user_information input{
+    width: 60%;
+    padding: 8px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+}
+.user_information .d_flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+}
+.user_information .d_flex label{
+    margin-top: -5px;
+}
+.user_information input:focus{
+    outline-color: #3498DB;
+}
+.user_information h4{
+    margin-top: 20px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.user_information input[type="file"]{
+    border: none;
+}
+.user_information img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user_information button{
+    display: block;
+    margin-top: 20px;
+    background-color: #3498DB;
+    padding: 8px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 /* Responsive part start here */
+
+@media (max-width: 992px){
+    .user_information .d_flex{
+        width: 14%;
+    }
+}
+@media (max-width: 830px){
+    .user_information .d_flex{
+        width: 17%;
+    }
+}
 @media (max-width: 768px){
    .dash_info{
        grid-template-columns: repeat(1, 1fr);
@@ -124,6 +200,9 @@
    .user_content_item{
        padding: 10px;
    }
+   .user_information .d_flex{
+    width: 20%;
+}
 
 }
 @media (max-width: 575px){
@@ -136,7 +215,15 @@
     .user_content_item div{
         font-size: 12px;
     }
- 
+    .user_information .d_flex{
+        width: 26%;
+    }
+    .user_information{
+        padding: 20px;
+    }
+    .user_information input{
+        width: 100%;
+    }
  }
  @media (max-width: 475px){
     .user_info_image{
@@ -145,6 +232,9 @@
     .user_content_item div{
         font-size: 12px;
         padding: 8px;
+    }
+    .user_information .d_flex{
+        width: 30%;
     }
  
  }
@@ -182,4 +272,10 @@
     .delivary_info p span{
         font-size: 13px;
     }
+ }
+ @media (max-width: 375px){
+    .user_information .d_flex{
+        width: 40%;
+    }
+ 
  }
